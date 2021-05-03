@@ -1,0 +1,75 @@
+main {
+  width: 80%;
+  height: 80%;
+}
+
+html {
+  font-size: 50%;
+}
+
+.player {
+  padding: 5rem;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.score {
+  font-size: 5rem;
+}
+
+.current {
+  width: 50%;
+  padding: 1rem;
+}
+
+.btn--new {
+  top: 10%;
+}
+
+.btn--roll {
+  top: 60%;
+}
+
+.btn--hold {
+  top: 75%;
+}
+
+.dice {
+  top: 32%;
+  height: 6rem;
+}
+
+.modal {
+  width: 70%;
+
+  background-color: white;
+  padding: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .current-label {
+    font-size: 1.4rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 0.4rem 1.5rem;
+  }
+
+  .modal {
+    width: 80%;
+    font-size: 0.5rem;
+    padding: 3rem;
+    border-radius: 5px;
+  }
+  .modal h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .modal p {
+    font-size: 1.4rem;
+  }
+}
